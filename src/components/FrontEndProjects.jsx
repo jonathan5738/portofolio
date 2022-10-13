@@ -8,9 +8,10 @@ function FrontEndProjects() {
         <div className="front-end-card">
              <div className="front-end-project-text">
                  <h3>Caribout clone</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Laboriosam deserunt quae, ullam minus corrupti sint nihil culpa vero laborum nisi
-                     commodi explicabo nobis dicta quis nulla quam aut, ipsam unde!</p>
+                 <p>this website is a clone of <a href="https://www.caribou.com/">caribout website</a>
+                   i used react.js, react-router-dom, and framer-motion for basic animation 
+                   did not meet challenges while implementing this website, didn't use redux 
+                 </p>
                      <div className="website-links">
                         <a href="https://gorgeous-starlight-479c7b.netlify.app/" className='netlify-link'>
                             <div className="link-content">view website <FiEye size={20}/> </div>
@@ -29,9 +30,10 @@ function FrontEndProjects() {
         <div className="front-end-project-img2"></div>
              <div className="front-end-project-text">
                  <h3>store spark clone</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Laboriosam deserunt quae, ullam minus corrupti sint nihil culpa vero laborum nisi
-                     commodi explicabo nobis dicta quis nulla quam aut, ipsam unde!</p>
+                 <p>this instead is a clone of <a href="https://www.storespark.co/">store spark</a>
+                   like caribou used strictly react.js, react-router-dom for navigation, and framer-motion 
+                   for basic animations
+                 </p>
                      <div className="website-links">
                         <a href="https://glittering-marzipan-a97593.netlify.app/" className='netlify-link'>
                             <div className="link-content">view website <FiEye size={20}/> </div>

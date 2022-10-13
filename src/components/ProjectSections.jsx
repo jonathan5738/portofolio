@@ -9,9 +9,7 @@ function ProjectSections() {
                   <div className="project-section-card-text">
                       <h3>Front end projects</h3>
                       <p>List of some of the react project i made</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Ab veniam fuga earum, obcaecati perspiciatis quae rerum exercitationem unde tempore minus.
-                         Commodi autem illum necessitatibus nobis repudiandae quas veniam harum natus.</p>
+                      <p>those website has been implemented soly in javascript</p>
                          <Link to="/front-end/projects" className='btn'>see front-end projects</Link>
                   </div>
                   <div className="project-section-card-img1"></div>
@@ -22,10 +20,8 @@ function ProjectSections() {
                   <div className="project-section-card-text gap-space">
                       <h3>Api projects</h3>
                       <p>List of some of the react project i made</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Ab veniam fuga earum, obcaecati perspiciatis quae rerum exercitationem unde tempore minus.
-                         Commodi autem illum necessitatibus nobis repudiandae quas veniam harum natus.</p>
-                         <Link to="#" className='btn'>see api projects</Link>
+                      <p>Here are, node.js (express) and python (django) apis</p>
+                         <Link to="/apis/projects" className='btn'>see api projects</Link>
                   </div>
              </div>
          </div>

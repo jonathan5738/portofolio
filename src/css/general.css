@@ -12,6 +12,7 @@ body {
 p {
     line-height: 1.7;
 }
+.hid-div { display: none;}
 .btn {
     display: inline-block;
     padding: 1em 2em;
