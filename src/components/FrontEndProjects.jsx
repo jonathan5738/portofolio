@@ -1,11 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import { FiGithub, FiEye } from "react-icons/fi";
 import '../css/projects/FrontEndProjects.css'
+
 function FrontEndProjects() {
+  const variants = {
+    initial: {opacity: 0, scale: 0.7},
+    visible: {opacity: 1, scale: 1}
+ }
   return (
     <section className="front-end-projects">
-        <div className="front-end-card">
+        <motion.div className="front-end-card"
+           variants={variants}
+           initial='initial'
+           whileInView='visible'
+           transition={{ ease: 'easeInOut', duration: .4}}
+        >
              <div className="front-end-project-text">
                  <h3>Caribout clone</h3>
                  <p>this website is a clone of <a href="https://www.caribou.com/">caribout website</a>
@@ -23,9 +33,14 @@ function FrontEndProjects() {
              </div>
              <div className="front-end-project-img"></div>
              <div className="project-section-card-img1-mobile"></div>
-        </div>
+        </motion.div>
 
-        <div className="front-end-card space">
+        <motion.div className="front-end-card space"
+          variants={variants}
+          initial='initial'
+          whileInView='visible'
+          transition={{ ease: 'easeInOut', duration: .4}}
+        >
         <div className="project-section-card-img2-mobile"></div>
         <div className="front-end-project-img2"></div>
              <div className="front-end-project-text">
@@ -43,7 +58,7 @@ function FrontEndProjects() {
                         </a>
                      </div>
              </div>
-        </div>
+        </motion.div>
     </section>
   )
 }

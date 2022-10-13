@@ -6,16 +6,21 @@ function AboutSection() {
   const [showAbout, setShowAbout] = useState(false)
   const paragraphRef = useRef()
   const variants = {
-     initial: {opacity: 0},
-     visible: {opacity: 1}
-  }
+    initial: {opacity: 0, scale: 0.7},
+    visible: {opacity: 1, scale: 1}
+ }
   const showParagraph = (e) => {
     e.preventDefault()
     paragraphRef.current.classList.toggle('hid-div')
     setShowAbout(prev => !prev)
   }
   return (
-    <section className="about-section">
+    <motion.section className="about-section"
+    variants={variants}
+    initial='initial'
+    whileInView='visible'
+    transition={{ ease: 'easeInOut', duration: .4}}
+    >
         <div className="about-section-text">
         <h3>About me</h3>
         <p>Hi, my name is jonathan nakahonda, i am <span className="colored">fullstack developper</span> who use <span className="colored">javascript (react, express) and python (django)</span> on a daily basis.
@@ -44,7 +49,7 @@ function AboutSection() {
         <div className="about-section-img">
 
         </div>
-    </section>
+    </motion.section>
   )
 }
 

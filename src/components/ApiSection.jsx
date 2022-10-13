@@ -1,13 +1,23 @@
 import React from 'react'
 import { FiGithub } from "react-icons/fi";
+import {motion} from 'framer-motion'
 import '../css/Landing/ApiSection.css'
 
 function ApiSection() {
+  const variants = {
+    initial: {opacity: 0, scale: 0.7},
+    visible: {opacity: 1, scale: 1}
+ }
   return (
     <section className="api-section">
         <h2>List of some apis</h2>
         <div className="api-section-grid">
-             <div className="api-section-card">
+             <motion.div className="api-section-card"
+              variants={variants}
+              initial='initial'
+              whileInView='visible'
+              transition={{ ease: 'easeInOut', duration: .4}}
+             >
                   <h2>Ecommerce api</h2>
                   <p>this is ecommerce api has been implemented using node.js (express)
                     and mongodb as database, stripe to handle paymen, jwt and bcrypt 
@@ -22,9 +32,14 @@ function ApiSection() {
                   <a href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
                       <div className="link-content">github repository <FiGithub size={20} /> </div>
                   </a>
-             </div>
+             </motion.div>
 
-             <div className="api-section-card">
+             <motion.div className="api-section-card"
+               variants={variants}
+               initial='initial'
+               whileInView='visible'
+               transition={{ ease: 'easeInOut', duration: .4}}
+             >
                   <h2>Blog api</h2>
                   <p>this is a blog api implemented in python (django, django-rest-framework)
                     in this blog i used token authentication, and employed rest api approch
@@ -41,7 +56,7 @@ function ApiSection() {
                   <a href="https://github.com/jonathan5738/portofolio-blog" className='btn'>
                      <div className="link-content">github repository <FiGithub size={20} /> </div>
                   </a>
-             </div>
+             </motion.div>
         </div>
     </section>
   )
