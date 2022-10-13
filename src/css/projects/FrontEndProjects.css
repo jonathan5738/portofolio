@@ -52,6 +52,7 @@
 }
 .website-links {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
 }
@@ -84,10 +85,10 @@
     .front-end-project-img, .front-end-project-img2{
         display: none;
     }
-    .project-section-card-img1-mobile, .project-section-card-img2-mobile {
+    /* .project-section-card-img1-mobile, .project-section-card-img2-mobile {
         display: block;
-    }
-    .project-section-card-img1-mobile {
+    } */
+    /* .project-section-card-img1-mobile {
         width: 100%;
         background-image: url('../../img/caribou-mobile.PNG');
         border-radius: 10px;
@@ -100,5 +101,6 @@
         border-radius: 10px;
         background-repeat: no-repeat;
         height: 50vh;
-    }
+    } */
 }
+
