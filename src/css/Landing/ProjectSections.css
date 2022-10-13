@@ -1,0 +1,58 @@
+.project-section {
+    padding: var(--desk-padd);
+    margin-top: 10rem;
+}
+.project-section-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.project-section-card-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.project-section-card-text h3 {
+    font-size: 3.7rem;
+}
+.project-section-card-img1 {
+    width: 100%;
+    height: 50rem;
+    background-image: url('../../SVG/font-end-projects.svg');
+    background-size: cover;
+}
+.project-section-card-img2 {
+    width: 100%;
+    height: 50rem;
+    background-image: url('../../SVG/api.svg');
+    background-size: cover;
+}
+.space {
+    margin-top: 10rem;
+}
+.gap-space {
+    padding-left: 5rem;
+}
+@media(max-width: 1150px){
+    .project-section {
+        padding: var(--mobile-padd);
+    }
+}
+@media(max-width: 976px){
+    .gap-space {
+        padding-left: 0;
+    }
+    .project-section-card {
+        grid-template-columns: 1fr;
+    }
+    .project-section-card-img1 {
+        display: none;
+    }
+    .project-section-card-img2 {
+        display: none;
+    }
+    .project-section-card-text{
+        box-shadow: 0 -3rem 3rem 0 rgba(87, 87, 87, 0.363);
+        padding: 5rem 2rem;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,104 @@
+.front-end-projects {
+    padding: var(--desk-padd);
+}
+.front-end-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    color: #fff;
+}
+.link-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.front-end-project-img  {
+    width: 100%;
+    height:50vh;
+    background-image: url('../../img/car-insurance.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.front-end-project-img2  {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../img/store-spark-img.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.front-end-project-text {
+    font-size: 1.6rem;
+}
+.front-end-project-text h3 {
+    font-size: 2.8rem;
+}
+.netlify-link, .github-link {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.netlify-link {
+    background-color: #e03131;
+    color: #fff;
+}
+.github-link { 
+    background-color: #fff;
+    color: #000;
+}
+.website-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.project-section-card-img1-mobile, .project-section-card-img2-mobile {
+    display: none;
+}
+
+@media(max-width: 1230px){
+    .front-end-projects {
+        padding: var(--mobile-padd);
+    }
+}
+@media(max-width: 1185px){
+    .front-end-project-img  {
+        width: 100%;
+        height:30vh;
+    }
+    .front-end-project-img2  {
+        width: 100%;
+        height: 30vh;
+    }
+}
+@media(max-width: 1098px){
+    .front-end-card {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+}
+@media (max-width: 422px){
+    .front-end-project-img, .front-end-project-img2{
+        display: none;
+    }
+    .project-section-card-img1-mobile, .project-section-card-img2-mobile {
+        display: block;
+    }
+    .project-section-card-img1-mobile {
+        width: 100%;
+        background-image: url('../../img/caribou-mobile.PNG');
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    .project-section-card-img2-mobile {
+        width: 100%;
+        background-image: url('../../img/store-spark-mobile.PNG');
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+}
