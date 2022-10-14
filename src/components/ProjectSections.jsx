@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import '../css/Landing/ProjectSections.css'
 function ProjectSections() {
   const variants = {
@@ -19,7 +20,7 @@ function ProjectSections() {
                       <h3>Front end projects</h3>
                       <p>List of some of the react project i made</p>
                       <p>those website has been implemented soly in javascript</p>
-                         <a href="/front-end/projects" className='btn'>see front-end projects</a>
+                         <Link to="/front-end/projects" className='btn'>see front-end projects</Link>
                   </div>
                   <div className="project-section-card-img1"></div>
              </motion.div>
@@ -35,7 +36,7 @@ function ProjectSections() {
                       <h3>Api projects</h3>
                       <p>List of some of the react project i made</p>
                       <p>Here are, node.js (express) and python (django) apis</p>
-                         <a href="/apis/projects" className='btn'>see api projects</a>
+                         <Link to="/apis/projects" className='btn'>see api projects</Link>
                   </div>
              </motion.div>
          </div>
