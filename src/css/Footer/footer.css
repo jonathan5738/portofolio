@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgb(20, 20, 20);
+    margin-top: 10rem;
+}
+.footer-content {
+    padding: var(--desk-padd);
+    color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.footer-content h3 {
+    font-size: 2.5rem;
+}
+@media(max-width: 396px){
+    .footer-content {
+        padding: var(--mobile-padd);
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}

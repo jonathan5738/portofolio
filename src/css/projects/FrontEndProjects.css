@@ -59,7 +59,9 @@
 .project-section-card-img1-mobile, .project-section-card-img2-mobile {
     display: none;
 }
-
+.front-end-projects {
+    margin-top: 7rem;
+}
 @media(max-width: 1230px){
     .front-end-projects {
         padding: var(--mobile-padd);
@@ -85,22 +87,8 @@
     .front-end-project-img, .front-end-project-img2{
         display: none;
     }
-    /* .project-section-card-img1-mobile, .project-section-card-img2-mobile {
-        display: block;
-    } */
-    /* .project-section-card-img1-mobile {
+    .website-links a {
         width: 100%;
-        background-image: url('../../img/caribou-mobile.PNG');
-        border-radius: 10px;
-        background-repeat: no-repeat;
-        height: 50vh;
     }
-    .project-section-card-img2-mobile {
-        width: 100%;
-        background-image: url('../../img/store-spark-mobile.PNG');
-        border-radius: 10px;
-        background-repeat: no-repeat;
-        height: 50vh;
-    } */
 }
 

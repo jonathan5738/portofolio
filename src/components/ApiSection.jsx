@@ -19,17 +19,16 @@ function ApiSection() {
               transition={{ ease: 'easeInOut', duration: .4}}
              >
                   <h2>Ecommerce api</h2>
-                  <p>this is ecommerce api has been implemented using node.js (express)
-                    and mongodb as database, stripe to handle paymen, jwt and bcrypt 
-                    for authentication, and also used passport.js for oauth authentication 
-                    one of the challenges implementing this api has been my organisation
+                  <p>this ecommerce api has been implemented using node.js (express)
+                    and mongodb as database, stripe to handle online payment, jwt and bcrypt 
+                    for authentication, passport.js for oauth authentication 
                   </p>
                   <ul className='list-technologies'>
                      <h3>Technologies</h3>
                      <li>express.js</li>
                      <li>mongodb (mongoose)</li>
                   </ul>
-                  <a href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
+                  <a  href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
                       <div className="link-content">github repository <FiGithub size={20} /> </div>
                   </a>
              </motion.div>
@@ -42,10 +41,10 @@ function ApiSection() {
              >
                   <h2>Blog api</h2>
                   <p>this is a blog api implemented in python (django, django-rest-framework)
-                    in this blog i used token authentication, and employed rest api approch
-                    user are able to create group and perform CRUD actions on blog-group, assign permissions (author, staff)
+                    in this blog i used token authentication, and employed a rest api approch
+                    user are able to create group and perform CRUD operations on those groups, assign permissions (author, staff)
                     author can perform CRUD operations on post
-                    member who join blog-group can read post, vote 
+                    member who join groups can read post, vote, and comment 
                   </p>
                   <ul className='list-technologies'>
                      <h3>Technologies</h3>
@@ -53,7 +52,7 @@ function ApiSection() {
                      <li>django, django-rest-framework</li>
                      <li>Django ORM</li>
                   </ul>
-                  <a href="https://github.com/jonathan5738/portofolio-blog" className='btn'>
+                  <a  href="https://github.com/jonathan5738/portofolio-blog" className='btn'>
                      <div className="link-content">github repository <FiGithub size={20} /> </div>
                   </a>
              </motion.div>

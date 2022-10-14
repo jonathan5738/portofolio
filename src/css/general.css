@@ -8,6 +8,8 @@ body {
     font-family: var(--font-family);
     overflow: visible;
     background-color: rgb(12, 12, 12);
+    margin: 0;
+    padding: 0;
 } 
 p {
     line-height: 1.7;
@@ -19,6 +21,16 @@ p {
     font-size: 1.4rem;
     background-color: #fff;
     color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.contact-me-btn {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.4rem;
+    background-color: #495057;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     border-radius: 4px;

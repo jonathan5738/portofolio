@@ -18,9 +18,8 @@ function FrontEndProjects() {
         >
              <div className="front-end-project-text">
                  <h3>Caribout clone</h3>
-                 <p>this website is a clone of <a href="https://www.caribou.com/">caribout website</a>
+                 <p>this website is a clone of the <a href="https://www.caribou.com/">caribout website</a>
                    i used react.js, react-router-dom, and framer-motion for basic animation 
-                   did not meet challenges while implementing this website, didn't use redux 
                  </p>
                      <div className="website-links">
                         <a href="https://gorgeous-starlight-479c7b.netlify.app/" className='netlify-link'>
@@ -45,7 +44,7 @@ function FrontEndProjects() {
         <div className="front-end-project-img2"></div>
              <div className="front-end-project-text">
                  <h3>store spark clone</h3>
-                 <p>this instead is a clone of <a href="https://www.storespark.co/">store spark</a>
+                 <p>this instead is a clone of the <a href="https://www.storespark.co/">store spark</a>
                    like caribou used strictly react.js, react-router-dom for navigation, and framer-motion 
                    for basic animations
                  </p>

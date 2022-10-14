@@ -15,7 +15,7 @@ function AboutSection() {
     setShowAbout(prev => !prev)
   }
   return (
-    <motion.section className="about-section"
+    <motion.section className="about-section" id='about-me'
     variants={variants}
     initial='initial'
     whileInView='visible'
@@ -38,17 +38,10 @@ function AboutSection() {
                 but because i only knew french and italian 
                 which are beautiful languages but not the best when it comes to learn and improve programing skills
                 I had to learn english in order to read documentations, books, watch udemy courses 
-                and above all understand stackoverflow explainations :)
-        
-                as a self taught i did some mistake along the way of course, but all those hours spent 
-                learning, and somethimes yelling at my compiuter made me even more passionate 
-                I am ready to work and learn even more challenging aspects of this field 
             </motion.p>
         <Link to="#" className='btn' onClick={showParagraph}>{showAbout ? 'hid content': 'show more'}</Link>
         </div>
-        <div className="about-section-img">
-
-        </div>
+        <div className="about-section-img"></div>
     </motion.section>
   )
 }
