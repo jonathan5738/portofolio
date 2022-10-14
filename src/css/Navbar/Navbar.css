@@ -20,6 +20,16 @@
 .menu-icon { display: none; cursor: pointer;}
 .hid-nav-mobile { display: none;}
 .mobile-navigation { display: none;}
+.menu-mobile li {
+    list-style: none;
+}
+.menu-mobile {
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
 @media(max-width: 1145px){
     .navbar-container {
         padding: var(--mobile-padd);
@@ -29,13 +39,6 @@
     .mobile-navigation { display: block;}
     .navbar { display: none;}
     .menu-icon { display: block;}
-    .menu-mobile {
-        margin: 0; padding: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 1.4rem;
-        margin-top: 4rem;
-    }
     .mobile-homepage {
         display: inline-block;
         margin-top: 4rem;

@@ -1,10 +1,13 @@
 import React, { useRef, useState } from 'react'
 import { FiMenu } from "react-icons/fi"
+import {Link} from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import '../css/Navbar/Navbar.css'
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false)
+  const location = useLocation()
   const navMobile = useRef()
   const variants = {
     initial: {opacity: 0, scale: .8},
@@ -14,11 +17,11 @@ function Navbar() {
      setShowMenu(prev => !prev)
      navMobile.current.classList.toggle('hid-nav-mobile')
   }
-  const pathname = new URL(document.location).pathname 
+  const pathname = location.pathname
   return (
     <section className="navbar-container">
        <nav className='navbar'>
-         <a href='/'>homepage</a>
+         <Link to='/'>homepage</Link>
             {pathname === '/' && (
                 <ul className='menu'>
                     <li className='menu-item'><a href="#projects-section">Projects</a></li>
@@ -36,7 +39,7 @@ function Navbar() {
                 animate={showMenu ? 'visible': ''}
                 transition={{ ease: 'easeInOut', duration: .3}}
              >
-                <a href="/" className='mobile-homepage'>home</a>
+                <Link to="/" className='mobile-homepage'>home</Link>
                 {pathname === '/' && (
                   <ul className="menu-mobile">
                      <li className="menu-item-mobile"><a href="#projects-section">Projects</a></li>
