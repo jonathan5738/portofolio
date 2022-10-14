@@ -23,7 +23,7 @@ function FrontEndProjects() {
                  </p>
                      <div className="website-links">
                         <a href="https://gorgeous-starlight-479c7b.netlify.app/" className='netlify-link'>
-                            <div className="link-content">view website <FiEye size={20}/> </div>
+                            <div className="link-content">view clone <FiEye size={20}/> </div>
                         </a>
                         <a href="https://github.com/jonathan5738/caribou-clone" className='github-link'>
                             <div className="link-content">github repository <FiGithub size={20} /> </div>
@@ -50,7 +50,7 @@ function FrontEndProjects() {
                  </p>
                      <div className="website-links">
                         <a href="https://glittering-marzipan-a97593.netlify.app/" className='netlify-link'>
-                            <div className="link-content">view website <FiEye size={20}/> </div>
+                            <div className="link-content">view clone <FiEye size={20}/> </div>
                         </a>
                         <a href="https://github.com/jonathan5738/store-spark-clone" className='github-link'>
                             <div className="link-content">github repository <FiGithub size={20} /> </div>
