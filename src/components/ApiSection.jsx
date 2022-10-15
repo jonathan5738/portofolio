@@ -38,7 +38,7 @@ function ApiSection() {
                      <li>express.js</li>
                      <li>mongodb (mongoose)</li>
                      <li>React</li/>
-                     <li>Redux-toolkit, React-redux </li/>
+                     <li>Redux-toolkit, React-redux </li>
                      <li>React-router-dom</li>
                   </ul>
              </motion.div>
