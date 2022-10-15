@@ -18,19 +18,29 @@ function ApiSection() {
               whileInView='visible'
               transition={{ ease: 'easeInOut', duration: .4}}
              >
-                  <h2>Ecommerce api</h2>
+                  <h2>Ecommerce website</h2>
                   <p>this ecommerce api has been implemented using node.js (express)
                     and mongodb as database, stripe to handle online payment, jwt and bcrypt 
                     for authentication, passport.js for oauth authentication 
                   </p>
+                  <a  href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
+                      <div className="link-content">back end repository <FiGithub size={20} /> </div>
+                  </a>
+                 <p>
+                       The front end has been implemented using react, react-router-dom for navigation, redux-toolkit for
+                       application level state, and react-redux 
+                 </p>
+                 <a  href="https://github.com/jonathan5738/ecommerceFront" className='btn'>
+                      <div className="link-content">client side repository <FiGithub size={20} /> </div>
+                  </a>
                   <ul className='list-technologies'>
                      <h3>Technologies</h3>
                      <li>express.js</li>
                      <li>mongodb (mongoose)</li>
+                     <li>React</li/>
+                     <li>Redux-toolkit, React-redux </li/>
+                     <li>React-router-dom</li>
                   </ul>
-                  <a  href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
-                      <div className="link-content">github repository <FiGithub size={20} /> </div>
-                  </a>
              </motion.div>
 
              <motion.div className="api-section-card"
