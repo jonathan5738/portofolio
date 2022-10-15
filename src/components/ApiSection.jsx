@@ -23,16 +23,11 @@ function ApiSection() {
                     and mongodb as database, stripe to handle online payment, jwt and bcrypt 
                     for authentication, passport.js for oauth authentication 
                   </p>
-                  <a  href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
-                      <div className="link-content">back end repository <FiGithub size={20} /> </div>
-                  </a>
                  <p>
                        The front end has been implemented using react, react-router-dom for navigation, redux-toolkit for
                        application level state, and react-redux 
                  </p>
-                 <a  href="https://github.com/jonathan5738/ecommerceFront" className='btn'>
-                      <div className="link-content">client side repository <FiGithub size={20} /> </div>
-                  </a>
+
                   <ul className='list-technologies'>
                      <h3>Technologies</h3>
                      <li>express.js</li>
@@ -41,6 +36,15 @@ function ApiSection() {
                      <li>Redux-toolkit, React-redux </li>
                      <li>React-router-dom</li>
                   </ul>
+                    <a  href="https://github.com/jonathan5738/ecommerceBackend" className='btn'>
+                      <div className="link-content">back end repository <FiGithub size={20} /> </div>
+                   </a>
+                  <a  href="https://github.com/jonathan5738/ecommerceFront" className='btn'>
+                      <div className="link-content">client side repository <FiGithub size={20} /> </div>
+                  </a>
+                 <a href="https://cheery-syrniki-804c6e.netlify.app/" className='netlify-link'>
+                      <div className="link-content">view website <FiEye size={20}/> </div>
+                 </a>
              </motion.div>
 
              <motion.div className="api-section-card"
