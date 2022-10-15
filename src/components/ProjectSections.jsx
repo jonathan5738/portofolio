@@ -33,7 +33,7 @@ function ProjectSections() {
              >
                  <div className="project-section-card-img2"></div>
                   <div className="project-section-card-text gap-space">
-                      <h3>Api projects</h3>
+                      <h3>Fullstack projects</h3>
                       <p>List of some of the apis i made</p>
                       <p>Here are, node.js (express) and python (django) apis</p>
                          <Link to="/apis/projects" className='btn'>see api projects</Link>
