@@ -37,7 +37,7 @@ function ApiSection() {
                      <h3>Technologies</h3>
                      <li>express.js</li>
                      <li>mongodb (mongoose)</li>
-                     <li>React</li/>
+                     <li>React</li>
                      <li>Redux-toolkit, React-redux </li>
                      <li>React-router-dom</li>
                   </ul>
